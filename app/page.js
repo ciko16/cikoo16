@@ -37,92 +37,6 @@ export default function Home() {
     { id: "skills", label: "🛠 Skills" },
   ];
 
-  // return (
-  //   <main className="relative flex flex-col items-center justify-start min-h-screen w-full px-4 py-10 bg-[url('/yeefbackgroundimage.png')] bg-cover bg-center bg-no-repeat text-white">
-  //     {/* Optional: ParticlesBackground */}
-  //     {/* <ParticlesBackground /> */}
-
-  //     {/* Tombol Mute */}
-  //     <div className="absolute top-4 right-4 z-50">
-  //       <button
-  //         onClick={() => setIsMuted(!isMuted)}
-  //         className="bg-black bg-opacity-60 text-white px-3 py-2 rounded-full shadow hover:bg-opacity-80 transition"
-  //         title={isMuted ? "Unmute" : "Mute"}
-  //       >
-  //         {isMuted ? <span role="img" aria-label="muted">🔇</span> : <span role="img" aria-label="playing">🔊</span>}
-  //       </button>
-  //     </div>
-
-  //     {/* Audio */}
-  //     <audio ref={audioRef} volume={0.3}>
-  //       <source src="/audio/midnight-forest.mp3" type="audio/mpeg" />
-  //     </audio>
-
-  //     {/* Foto Profil */}
-  //     <div
-  //       className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 mx-auto rounded-full mb-6 shadow-lg overflow-hidden group"
-  //       onMouseEnter={() => setHovered(true)}
-  //       onMouseLeave={() => setHovered(false)}
-  //       onTouchStart={() => setHovered(!hovered)}
-  //     >
-  //       <img
-  //         src="/ciko16.jpg"
-  //         alt="foto profil"
-  //         className={`w-full h-full object-cover rounded-full transition-opacity duration-300 ${hovered ? "opacity-0" : "opacity-100"}`}
-  //       />
-  //       <img
-  //         src="/cikoavatar.png"
-  //         alt="foto profil hover"
-  //         className={`w-full h-full object-cover rounded-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 ${hovered ? "opacity-100" : "opacity-0"}`}
-  //       />
-  //     </div>
-
-  //     {/* Tabs */}
-  //     <div className="flex space-x-4 mb-8 z-10 relative">
-  //       {tabs.map((tab) => (
-  //         <button
-  //           key={tab.id}
-  //           onClick={() => setActiveTab(tab.id)}
-  //           className={`px-4 py-2 rounded font-medium transition-colors duration-300 ${
-  //             activeTab === tab.id ? "bg-blue-600 text-white" : "bg-gray-900 text-gray-300 hover:bg-gray-700"
-  //           }`}
-  //         >
-  //           {tab.label}
-  //         </button>
-  //       ))}
-  //     </div>
-
-  //     {/* Content */}
-  //     <div className="w-full max-w-3xl z-10 relative">
-  //       {activeTab === "hero" && (
-  //         <section className="text-center px-4">
-  //           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 animate-typing highlight">
-  //             Halo, nama saya Muhammad Chicco Ramadhan.
-  //           </h1>
-  //           <p className="text-lg mb-6">
-  //             Saya adalah Quality Assurance Engineer yang passionate tentang teknologi dan pengembangan perangkat lunak.
-  //           </p>
-  //           <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
-  //             <a href="mailto:muhammadchikor7@gmail.com?subject=Hello&body=Hello%20Chicco,%20I'm%20interested%20with%20your%20portfolio.">
-  //               <button className="w-full sm:w-auto flex items-center justify-center bg-[#4169E1] text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full font-medium hover:bg-[#02066f] transition duration-300">
-  //                 Contact me
-  //               </button>
-  //             </a>
-  //             <button className="w-full sm:w-auto flex items-center justify-center bg-gray-900 text-white py-2 sm:py-3 px-4 sm:px-6 rounded-full font-medium hover:bg-gray-800 transition duration-300">
-  //               Download CV
-  //             </button>
-  //           </div>
-  //         </section>
-  //       )}
-  //       {activeTab === "qualification" && <Qualification />}
-  //       {activeTab === "skills" && <Skills />}
-  //     </div>
-
-  //     {/* Footer */}
-  //     <Footer />
-  //   </main>
-  // );
-
   return (
 <main className="relative flex flex-col items-center justify-start min-h-screen px-4 py-10 bg-gradient-to-b from-gray-800 to-black text-white">
       {/* Background particles */}
@@ -135,9 +49,9 @@ export default function Home() {
         title={isMuted ? "Unmute" : "Mute"}
         >
           {isMuted ? (
-            <span role="img" aria-label="muted">🔇</span>
+            <span role="Image" aria-label="muted">🔇</span>
           ) : (
-            <span role="img" aria-label="playing">🔊</span>
+            <span role="Image" aria-label="playing">🔊</span>
           )}
         </button>
       </div>
@@ -153,7 +67,7 @@ export default function Home() {
         onMouseLeave={() => setHovered(false)}
         onTouchStart={() => setHovered(!hovered)} /* Mobile: tap to toggle*/
       >
-      <img
+      <Image
         src="/ciko1612.png"
         alt="foto profil"
         className={`w-full h-full object-cover rounded-full transition-opacity duration-300 ${
@@ -162,7 +76,7 @@ export default function Home() {
       />
 
       {/*Foto Hover*/}
-      <img
+      <Image
         src="/cikoavatar.png"
         alt="foto profil hover"
         className={`w-full h-full object-cover rounded-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 ${

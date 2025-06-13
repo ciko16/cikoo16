@@ -113,7 +113,7 @@ export default function Skills () {
               onMouseLeave={() => setHoveredSkill(null)}
               >
                 <div className="w-12 h-12 mb-2 flex justify-center items-center relative">
-                <img
+                <Image
                 src={hoveredSkill === index ? skills.hoverIcon : skills.icon}
                 alt={skills.name}
                 className="max-w-full max-h-full object-contain"/>
@@ -143,7 +143,7 @@ export default function Skills () {
               onMouseLeave={() => setHoveredSkill(null)}
               >
                 <div className="w-12 h-12 mb-2 flex justify-center items-center">
-                <img
+                <Image
                 src={hoveredSkill === index ? tools.hoverIcon : tools.icon}
                 alt={tools.name}
                 className="max-w-full max-h-full object-contain"/>
