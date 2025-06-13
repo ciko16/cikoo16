@@ -67,7 +67,7 @@ export default function Home() {
         onMouseLeave={() => setHovered(false)}
         onTouchStart={() => setHovered(!hovered)} /* Mobile: tap to toggle*/
       >
-      <Image
+      <img
         src="/ciko1612.png"
         alt="foto profil"
         className={`w-full h-full object-cover rounded-full transition-opacity duration-300 ${
@@ -76,7 +76,7 @@ export default function Home() {
       />
 
       {/*Foto Hover*/}
-      <Image
+      <img
         src="/cikoavatar.png"
         alt="foto profil hover"
         className={`w-full h-full object-cover rounded-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 ${

@@ -4,7 +4,7 @@ import { Instagram, Github, Linkedin } from "lucide-react";
 export default function Footer() {
   return (
     <div className="font-open-sans text-center py-6">
-      <p className="mb-4">Let's connect and keep in touch!</p>
+      <p className="mb-4">Let&apos;s connect and keep in touch!</p>
       <div className="flex justify-center gap-6">
         <a
           href="https://www.instagram.com/chiccoramadhan/"
