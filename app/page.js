@@ -112,7 +112,9 @@ export default function Home() {
               Halo, nama saya Muhammad Chicco Ramadhan.
             </h1>
             <p className="text-lg mb-6">
-              Saya adalah Quality Assurance Engineer yang passionate tentang teknologi dan pengembangan perangkat lunak.
+              A highly motivated and adaptable Informatics Engineering graduate with hands-on experience in UI/UX
+              design, web development, and quality assurance. Skilled in creating user-centered designs, developing
+              responsive web applications, and performing software testing to ensure product quality. 
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
               <a href="mailto:muhammadchikor7@gmail.com?subject=Hello&body=Hello%20Chicco,%20I'm%20interested%20with%20your%20portfolio.">
