@@ -109,7 +109,7 @@ export default function Home() {
         {activeTab === "hero" && (
           <section className="text-center px-4">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 animate-typing">
-              Halo, my name <span className="highlight">Muhammad Chicco Ramadhan.</span>
+              Halo, my name <span className="text-blue-500">Muhammad Chicco Ramadhan.</span>
             </h1>
             <p className="text-lg mb-6">
               A highly motivated and detail-oriented Informatics Engineering graduate with solid experience in software
