@@ -42,7 +42,7 @@ export default function Home() {
       {/* Background particles */}
       <ParticlesBackground />
 
-      <div className="absolute top-4 right-4 z-50">
+      {/* <div className="absolute top-4 right-4 z-50">
         <button
         onClick={() => setIsMuted(!isMuted)}
         className="bg-black bg-opacity-60 text-white px-3 py-2 rounded-full shadow hover:bg-opacity-80 transition"
@@ -54,12 +54,12 @@ export default function Home() {
             <span role="Image" aria-label="playing">🔊</span>
           )}
         </button>
-      </div>
+      </div> */}
 
       {/*Audio element */}
-      <audio ref={audioRef} volume={0.3}>
+      {/* <audio ref={audioRef} volume={0.3}>
         <source src="/audio/midnight-forest.mp3" type="audio/mpeg" />
-      </audio>
+      </audio> */}
 
       {/* Profile photo */} 
       <div className="relative w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 mx-auto rounded-full mb-6 shadow-lg overflow-hidden group"
@@ -68,7 +68,7 @@ export default function Home() {
         onTouchStart={() => setHovered(!hovered)} /* Mobile: tap to toggle*/
       >
       <img
-        src="/ciko1612.png"
+        src="/cikoo.jng"
         alt="foto profil"
         className={`w-full h-full object-cover rounded-full transition-opacity duration-300 ${
           hovered ? "opacity-0" : "opacity-100"
@@ -77,7 +77,7 @@ export default function Home() {
 
       {/*Foto Hover*/}
       <img
-        src="/cikoavatar.png"
+        src="/ciko.jpeg"
         alt="foto profil hover"
         className={`w-full h-full object-cover rounded-full absolute top-0 left-0 opacity-0 transition-opacity duration-300 ${
           hovered ? "opacity-100" : "opacity-0"
