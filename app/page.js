@@ -7,29 +7,29 @@ import Footer from "./component/footer";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("hero");
-  const audioRef = useRef(null);
+  // const audioRef = useRef(null);
   const [hovered, setHovered] = useState(false);
-  const [isMuted, setIsMuted] = useState(false);
+  // const [isMuted, setIsMuted] = useState(false);
 
-  useEffect(() => {
-    // autoplay ketika diklik
-    const handleUserInteraction = () => {
-      if (audioRef.current && audioRef.current.paused){
-        audioRef.current.play().catch((e) => console.log("Autoplay blocked:", e))
-      }
-    };
+  // useEffect(() => {
+  //   // autoplay ketika diklik
+  //   const handleUserInteraction = () => {
+  //     if (audioRef.current && audioRef.current.paused){
+  //       audioRef.current.play().catch((e) => console.log("Autoplay blocked:", e))
+  //     }
+  //   };
 
-    window.addEventListener("click", handleUserInteraction);
+  //   window.addEventListener("click", handleUserInteraction);
 
-    return () => {
-      window.removeEventListener("click", handleUserInteraction);
-    };
-  }, []);
-  useEffect(() => {
-    if (audioRef.current) {
-      audioRef.current.muted = isMuted;
-    }
-  }, [isMuted]);
+  //   return () => {
+  //     window.removeEventListener("click", handleUserInteraction);
+  //   };
+  // }, []);
+  // useEffect(() => {
+  //   if (audioRef.current) {
+  //     audioRef.current.muted = isMuted;
+  //   }
+  // }, [isMuted]);
 
   const tabs = [
     { id: "hero", label: "Hello World!" },
