@@ -27,6 +27,6 @@ body {
 
 .highlight {
   /* Efek stabilo modern (gradien) */
-  background: linear-gradient(180deg, transparent 40%, #7d95fd 60%);
+  background: linear-gradient(180deg, transparent 40%, #4169E1 60%);
   padding: 0 4px; /* Sedikit padding horizontal */
 }
