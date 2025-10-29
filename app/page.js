@@ -7,9 +7,9 @@ import Footer from "./component/footer";
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState("hero");
-  // const audioRef = useRef(null);
+  const audioRef = useRef(null);
   const [hovered, setHovered] = useState(false);
-  // const [isMuted, setIsMuted] = useState(false);
+  const [isMuted, setIsMuted] = useState(false);
 
   // useEffect(() => {
   //   // autoplay ketika diklik
