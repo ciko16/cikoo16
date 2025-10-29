@@ -32,7 +32,7 @@ export default function Home() {
   }, [isMuted]);
 
   const tabs = [
-    { id: "hero", label: "Hero" },
+    { id: "hero", label: "Hello World!" },
     { id: "qualification", label: "🎓 Qualification" },
     { id: "skills", label: "🛠 Skills" },
   ];
@@ -109,12 +109,13 @@ export default function Home() {
         {activeTab === "hero" && (
           <section className="text-center px-4">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 animate-typing highlight">
-              Halo, nama saya Muhammad Chicco Ramadhan.
+              Halo, my name is Muhammad Chicco Ramadhan.
             </h1>
             <p className="text-lg mb-6">
-              A highly motivated and adaptable Informatics Engineering graduate with hands-on experience in UI/UX
-              design, web development, and quality assurance. Skilled in creating user-centered designs, developing
-              responsive web applications, and performing software testing to ensure product quality. 
+              A highly motivated and detail-oriented Informatics Engineering graduate with solid experience in software
+              quality assurance, with a strong passion for the gaming industry. Complemented by a background in UI/UX
+              design and web development. Skilled in executing manual testing, writing test cases, reproducing bugs, and
+              ensuring product quality across web and mobile platforms. 
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
               <a href="mailto:muhammadchikor7@gmail.com?subject=Hello&body=Hello%20Chicco,%20I'm%20interested%20with%20your%20portfolio.">
