@@ -108,12 +108,12 @@ export default function Home() {
       <div className="w-full max-w-3xl z-10 relative">
         {activeTab === "hero" && (
           <section className="text-center px-4">
-            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 animate-typing highlight">
-              Halo, my name is Muhammad Chicco Ramadhan.
+            <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 animate-typing">
+              Halo, my name <span className="highlight">Muhammad Chicco Ramadhan.</span>
             </h1>
             <p className="text-lg mb-6">
               A highly motivated and detail-oriented Informatics Engineering graduate with solid experience in software
-              quality assurance, with a strong passion for the gaming industry. Complemented by a background in UI/UX
+              quality assurance, with a strong passion for the tech / gaming industry. Complemented by a background in UI/UX
               design and web development. Skilled in executing manual testing, writing test cases, reproducing bugs, and
               ensuring product quality across web and mobile platforms. 
             </p>
