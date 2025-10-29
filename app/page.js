@@ -68,7 +68,7 @@ export default function Home() {
         onTouchStart={() => setHovered(!hovered)} /* Mobile: tap to toggle*/
       >
       <img
-        src="/cikoo.jpg"
+        src="/cikooo.jpg"
         alt="foto profil"
         className={`w-full h-full object-cover rounded-full transition-opacity duration-300 ${
           hovered ? "opacity-0" : "opacity-100"
